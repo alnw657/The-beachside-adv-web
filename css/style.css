@@ -1,0 +1,21 @@
+.topHeader {
+    text-align: center;
+}
+.topHeaderList {
+    list-style: none;
+}
+li {
+    display: inline-block;
+}
+.logo {
+    width: 45%;
+    height: auto;
+    margin: 5px;
+}
+
+.navbar {
+    background-color: #4CAF50!important;
+}
+.navbar-nav {
+    margin: 0 auto;
+}
