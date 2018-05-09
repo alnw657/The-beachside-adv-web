@@ -1,5 +1,6 @@
 .topHeader {
     text-align: center;
+    
 }
 .topHeaderList {
     list-style: none;
@@ -8,14 +9,36 @@ li {
     display: inline-block;
 }
 .logo {
-    width: 45%;
+    width: 20%;
     height: auto;
     margin: 5px;
 }
 
 .navbar {
     background-color: #4CAF50!important;
+   
 }
 .navbar-nav {
-    margin: 0 auto;
+    margin: 0 auto ;
+  
+}
+
+
+.mainimg{
+    width: 70%;
+    height: 400px;
+    max-height: 400px;
+}
+
+.smimg{
+    max-width: 100px;
+    width:100px;
+    max-height: 100px;
+    height: 100px;
+    float: left;
+    
+}
+
+.socialmedia{
+    max-width:40px;
 }
