@@ -1,5 +1,14 @@
+a {
+    color: black;
+}
+a:hover {
+    text-decoration: none;
+    color: #4CAF50;
+}
 .topHeader {
     text-align: center;
+    display: flex;
+    align-items: center;
     
 }
 .topHeaderList {
@@ -41,4 +50,55 @@ li {
 
 .socialmedia{
     max-width:40px;
+}
+
+/* 
+
+FOOTER
+
+*/
+.containerFooter {
+    background-color: transperant;
+    margin: 20px 0 0 0;
+}
+.headerFooter {
+    display: flex;
+    align-items: center;
+    border-bottom: solid 1px black;
+    justify-content: space-between;
+    padding: 7px 15px;
+}
+.logotypeFooter {
+    width: 50%;
+    height: auto;
+}
+.blockList {
+    display: block;
+}
+.btnFooter {
+    border: 0;
+    padding: 7px 20px;
+    background-color: black;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: white;
+    cursor: pointer;
+}
+.btnFooter:hover {
+    background-color: #4CAF50;
+}
+.fab {
+    font-size: 25px;
+    margin: 10px;
+}
+.bodyFooter {
+    padding: 15px;
+}
+#connectHeading {
+    text-transform: uppercase;
+    font-size: 1.1em;
+}
+.footFooter {
+    border-top: 1px solid black;
+    padding: 7px 15px;
 }

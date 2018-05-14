@@ -122,7 +122,6 @@
     </div>
     
 <div class="container">
-  
  <ul class="nav nav-tabs" id="myTab" role="tablist">
   <li class="nav-item">
     <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
@@ -140,9 +139,9 @@
 
 <div class="tab-content">
   <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab">a</div>
-  <div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">bb</div>
-  <div class="tab-pane" id="messages" role="tabpanel" aria-labelledby="messages-tab">ccc</div>
-  <div class="tab-pane" id="settings" role="tabpanel" aria-labelledby="settings-tab">dddd</div>
+  <div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">..gtgg.</div>
+  <div class="tab-pane" id="messages" role="tabpanel" aria-labelledby="messages-tab">..iilil.</div>
+  <div class="tab-pane" id="settings" role="tabpanel" aria-labelledby="settings-tab">.tgtgtgttg..</div>
 </div>
 
 <script>

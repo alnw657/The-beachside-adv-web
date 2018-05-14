@@ -137,7 +137,7 @@
   </div> <!--anotherimg-->
   
   <!--Footer here -->
- <?php include ('includes/footer.php'); ?>
+ <?php include ('includes/foot.php'); ?>
   </body>  
 
 </html>
