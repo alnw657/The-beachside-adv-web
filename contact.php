@@ -218,12 +218,6 @@
 </section>
 <!--Section: Contact v.2-->
 
-<!--Section heading-->
-    <h2 class="section-heading h1 pt-4">Contact us</h2>
-    <!--Section description-->
-    <p class="section-description">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
-        matter of hours to help you.</p>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.298592193414!2d151.19308081563858!3d-33.881963027174386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ae292217df93%3A0x7f041156594ef4ef!2sAIT+-+Academy+of+Information+Technology!5e0!3m2!1sen!2sau!4v1526365765897" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
         
 
 </div>
@@ -233,7 +227,7 @@
   
   
     
- <?php include ('includes/foot.php'); ?>
+ <?php include ('includes/footer.php'); ?>
   </body>  
 
 </html>
