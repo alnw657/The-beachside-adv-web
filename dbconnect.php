@@ -12,11 +12,11 @@
 
 
     //And now to perform a simple query to make sure it's working
-    $query = "SELECT * FROM users";
+    $query = "SELECT * FROM Rooms";
     $result = mysqli_query($connection, $query);
 
     while ($row = mysqli_fetch_assoc($result)) { // for some reason is echo twice VERIFY 
-        echo "The ID is: " . $row['id'] . " and the Username is: " . $row['username'];
+        echo "The ID is: " . $row['room_id'] . " and the name is: " . $row['room_name'];
     }
     
     ?>
