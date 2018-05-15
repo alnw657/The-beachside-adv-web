@@ -1,6 +1,10 @@
+<?php include('includes/autoloader.php');?>
+
+
 <!DOCTYPE html>
 <html lang="en">
    <?php include ('includes/head.php'); ?>
+   
 <body>
   <div class="topHeader row">
     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
@@ -16,7 +20,8 @@
       </div>
       
       <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-        <button class="btn">Book</button>
+        <button class="btn"><a href="booking.php">Book</a></button>
+        
       </div>
     </div> <!-- topHeader container -->
     
@@ -60,7 +65,7 @@
         </li> 
         
           <li class="nav-item">
-        <a class="nav-link" href="#">CONTACT US</a>
+        <a class="nav-link" href="contact.php">CONTACT US</a>
       </li>
         
          <li class="nav-item">

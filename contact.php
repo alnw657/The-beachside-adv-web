@@ -1,6 +1,3 @@
-<?php include('includes/autoloader.php');?>
-
-
 <!DOCTYPE html>
 <html lang="en">
    <?php include ('includes/head.php'); ?>
@@ -63,7 +60,7 @@
         </li> 
         
           <li class="nav-item">
-        <a class="nav-link" href="contact.php">CONTACT US</a>
+        <a class="nav-link" href=".php">CONTACT US</a>
       </li>
         
          <li class="nav-item">
@@ -125,145 +122,110 @@
     </div>
     
 <div class="container">
- <ul class="nav nav-tabs" id="myTab" role="tablist">
-  <li class="nav-item">
-    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">
-      Rooms</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Suites</a>
-  </li>
-</ul>
+ <section class="section">
 
-<div class="tab-content">
-  <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab">
-    <!-- Room Grid-->
-    
-    <div class="container-fluid">
-  <div class="row">
-    <div class="col">
-            <div class="thumbnail">
-                <img class="group list-group-image" src="images/room image/image1.jpg" alt="" />
-                <div class="caption">
-                    <h4 class="group inner list-group-item-heading">
-                        Standard Rooms</h4>
-                    <p class="group inner list-group-item-text">
-                        Product description... Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-                        sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-                    <div class="row">
-                        <div class="col-xs-12 col-md-6">
-                            <p class="lead">
-                              <a class="btn btn-success" href="http://www.jquery2dotnet.com">Detail</a>
+    <!--Section heading-->
+    <h2 class="section-heading h1 pt-4">Contact us</h2>
+    <!--Section description-->
+    <p class="section-description">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
+        matter of hours to help you.</p>
+
+    <div class="row">
+
+        <!--Grid column-->
+        <div class="col-md-8 col-xl-9">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form">
+                            <input type="text" id="name" name="name" class="form-control">
+                            <label for="name" class="">Your name</label>
                         </div>
-                        
                     </div>
-                </div>
-        </div>
-    </div>
-    <div class="col">
-      <div>
-            <div class="thumbnail">
-                <img class="group list-group-image" src="images/room image/image2.jpg" alt="" />
-                <div class="caption">
-                    <h4 class="group inner list-group-item-heading">
-                        Luxury Rooms</h4>
-                    <p class="group inner list-group-item-text">
-                        Product description... Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-                        sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-                    <div class="row">
-                        <div class="col-xs-12 col-md-6">
-                            <p class="lead">
-                              <a class="btn btn-success" href="http://www.jquery2dotnet.com">Detail</a>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form">
+                            <input type="text" id="email" name="email" class="form-control">
+                            <label for="email" class="">Your email</label>
                         </div>
-                        
                     </div>
+                    <!--Grid column-->
+
                 </div>
-        </div>
-        </div>
-    </div>
-  </div>
-  
-  
-  
-  
-  
-  
-  
-  </div>
-    
-    <!-- Room Grid-->
-  </div>
-  <div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-    
-   <!-- suite Grid-->
-    
-    <div class="container">
-  <div class="row">
-    <div class="col">
-            <div class="thumbnail">
-                <img class="group list-group-image" src="http://placehold.it/400x250/000/fff" alt="" />
-                <div class="caption">
-                    <h4 class="group inner list-group-item-heading">
-                        Product title</h4>
-                    <p class="group inner list-group-item-text">
-                        Product description... Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-                        sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-                    <div class="row">
-                        <div class="col-xs-12 col-md-6">
-                            <p class="lead">
-                                $21.000</p>
-                        </div>
-                        <div class="col-xs-12 col-md-6">
-                            <a class="btn btn-success" href="http://www.jquery2dotnet.com">Add to cart</a>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form">
+                            <input type="text" id="subject" name="subject" class="form-control">
+                            <label for="subject" class="">Subject</label>
                         </div>
                     </div>
                 </div>
-        </div>
-    </div>
-    
-    <div class="col">
-      <div>
-            <div class="thumbnail">
-                <img class="group list-group-image" src="http://placehold.it/400x250/000/fff" alt="" />
-                <div class="caption">
-                    <h4 class="group inner list-group-item-heading">
-                        Product title</h4>
-                    <p class="group inner list-group-item-text">
-                        Product description... Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-                        sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-                    <div class="row">
-                        <div class="col-xs-12 col-md-6">
-                            <p class="lead">
-                                $21.000</p>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-12">
+
+                        <div class="md-form">
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                            <label for="message">Your message</label>
                         </div>
-                        <div class="col-xs-12 col-md-6">
-                            <a class="btn btn-success" href="http://www.jquery2dotnet.com">Add to cart</a>
-                        </div>
+
                     </div>
                 </div>
+                <!--Grid row-->
+
+            </form>
+
+            <div class="center-on-small-only">
+                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
             </div>
+            <div class="status"></div>
         </div>
-    </div>
-  </div>
-  </div>
-    
-    <!-- Suite Grid-->  
-    
-    
-    
-    
-    
-  </div>
-  
-</div>
+        <!--Grid column-->
 
-<script>
-  $(function () {
-    $('#myTab li:last-child a').tab('show')
-  })
-</script>
-  
-  
+        <!--Grid column-->
+        <div class="col-md-4 col-xl-3">
+            <ul class="contact-icons">
+                <li><i class="fa fa-map-marker fa-2x"></i>
+                    <p>7 Kelly St, Ultimo NSW 2007</p>
+                </li>
+
+                <li><i class="fa fa-phone fa-2x"></i>
+                    <p>(02) 9211 8399</p>
+                </li>
+
+                <li><i class="fa fa-envelope fa-2x"></i>
+                    <p>contact@mdbootstrap.com</p>
+                </li>
+            </ul>
+        </div>
+        <!--Grid column-->
+
+    </div>
+
+</section>
+<!--Section: Contact v.2-->
+
+<!--Section heading-->
+    <h2 class="section-heading h1 pt-4">Contact us</h2>
+    <!--Section description-->
+    <p class="section-description">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
+        matter of hours to help you.</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.298592193414!2d151.19308081563858!3d-33.881963027174386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ae292217df93%3A0x7f041156594ef4ef!2sAIT+-+Academy+of+Information+Technology!5e0!3m2!1sen!2sau!4v1526365765897" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        
+
 </div>
 
 
@@ -271,9 +233,6 @@
   
   
     
-  
-
- <!--Footer here -->
  <?php include ('includes/foot.php'); ?>
   </body>  
 
