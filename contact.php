@@ -32,7 +32,7 @@
             ACCOMMODATION
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Rooms</a>
+            <a class="dropdown-item" href="rooms.php">Rooms</a>
             <a class="dropdown-item" href="#">Suites</a>
           </div>
         </li>
