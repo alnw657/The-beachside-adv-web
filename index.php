@@ -1,91 +1,45 @@
 <?php include('includes/autoloader.php');?>
 
 
-<!DOCTYPE html>
-<html lang="en">
-   <?php include ('includes/head.php'); ?>
-   
-<body>
-  <div class="topHeader row">
-    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-      <ul class="topHeaderList">
-        <li><a href="#">Degree</a></li>
-        <li><a>|</a></li>
-        <li><a href="#">Find Hotel</a></li>
-      </ul>
-    </div>
-        
-      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-        <a href="index.php" class="logo"><img class="logo" src="images/logo.png"></a>
-      </div>
-      
-      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-        <button class="btn"><a href="booking.php">Book</a></button>
-        
-      </div>
-    </div> <!-- topHeader container -->
-    
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="accommodation.php" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            ACCOMMODATION
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="accommodation.php">Rooms</a>
-            <a class="dropdown-item" href="accommodation.php">Suites</a>
-          </div>
-        </li>
-        
-         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            SERVICES
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Spa</a>
-            <a class="dropdown-item" href="#">Events</a>
-            <a class="dropdown-item" href="#">Transfer</a>
-          </div>
-        </li>
-        
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            ACTIVITIES
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Sports</a>
-            <a class="dropdown-item" href="#">Kids Club</a>
-            <a class="dropdown-item" href="#">Sight seeing </a>
-          </div>
-        </li> 
-        
-          <li class="nav-item">
-        <a class="nav-link" href="contact.php">CONTACT US</a>
-      </li>
-        
-         <li class="nav-item">
-        <a class="nav-link" href="#">ABOUT US</a>
-      </li>
-        
-      </ul> <!-- ul navbar-nav mr-auto -->
-    </div> <!-- collapse navbar-collapse container -->
-  </nav> <!-- navbar container -->
-  
+<?php include ('includes/header.php'); ?>
   <!-- our main section here -->
   
   <div class="mainsection">
     <div class="row">
       <section class="col text-center">
-        <div>
-          <img src="images/beach.jpg" alt="Beach section" class="mainimg img-fluid rounded figure-img">
-        </div>    
-      </section>
+       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="images/beach.jpg" alt="First slide">
     </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/beach.jpg" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/beach.jpg"" alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div> 
+      </section>
+    
+      
+      
+      
+    </div>
+    
     
     <div class="row">
       <section class="col"> 
@@ -143,6 +97,4 @@
   
   <!--Footer here -->
  <?php include ('includes/foot.php'); ?>
-  </body>  
-
-</html>
+ 

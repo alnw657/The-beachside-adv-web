@@ -52,11 +52,10 @@ li {
     max-width:40px;
 }
 
-/* 
-
+/*-------------------
 FOOTER
+-------------------*/
 
-*/
 .containerFooter {
     background-color: transperant;
     margin: 20px 0 0 0;
@@ -101,4 +100,29 @@ FOOTER
 .footFooter {
     border-top: 1px solid black;
     padding: 7px 15px;
+}
+
+/*-------------------
+BOOKING PAGE
+-------------------*/
+.bookingForm {
+    margin: 20px 0;
+}
+.featureImage {
+    background-image: url('/images/featureImageBookingPage.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 600px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.featureImage h1 {
+    margin: 0 auto;
+}
+.bookingForm label {
+    display: block;
+}
+.btnBook {
+    margin: 7px 0;
 }

@@ -27,7 +27,7 @@
             <h5>Address: 7 Kelly St, Ultimo NSW 2007</h5>
             <a href="https://goo.gl/maps/5RhZD52VvPS2" target="_blank"><button class="btnFooter">Map</button></a>
             <h5>Phone: (02) 9211 8399</h5>
-            <button class="btnFooter">Book</button>
+            <a href="booking.php"><button class="btnFooter">Book</button></a>
         </div>
     </div>
     <div class="row footFooter">
@@ -39,3 +39,7 @@
 <script src="js/jquery.slim.min.js"></script>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+
+ </body>  
+
+</html>

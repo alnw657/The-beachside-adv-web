@@ -32,7 +32,7 @@
             ACCOMMODATION
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="rooms.php">Rooms</a>
+            <a class="dropdown-item" href="#">Rooms</a>
             <a class="dropdown-item" href="#">Suites</a>
           </div>
         </li>
@@ -218,16 +218,14 @@
 </section>
 <!--Section: Contact v.2-->
 
-        
 
 </div>
 
 
   </div> <!-- mainsection container-->
   
-  
     
- <?php include ('includes/footer.php'); ?>
+ <?php include ('includes/foot.php'); ?>
   </body>  
 
 </html>

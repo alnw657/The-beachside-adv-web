@@ -1,6 +1,3 @@
-<?php include('includes/autoloader.php');?>
-
-
 <!DOCTYPE html>
 <html lang="en">
    <?php include ('includes/head.php'); ?>
@@ -63,7 +60,7 @@
         </li> 
         
           <li class="nav-item">
-        <a class="nav-link" href="contact.php">CONTACT US</a>
+        <a class="nav-link" href="#">CONTACT US</a>
       </li>
         
          <li class="nav-item">
@@ -127,8 +124,7 @@
 <div class="container">
  <ul class="nav nav-tabs" id="myTab" role="tablist">
   <li class="nav-item">
-    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">
-      Rooms</a>
+    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Condo</a>
   </li>
   <li class="nav-item">
     <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Suites</a>
@@ -137,69 +133,10 @@
 
 <div class="tab-content">
   <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab">
-    <!-- Room Grid-->
+    <!-- condo-->
     
-    <div class="container-fluid">
-  <div class="row">
-    <div class="col">
-            <div class="thumbnail">
-                <img class="group list-group-image" src="images/room image/image1.jpg" alt="" />
-                <div class="caption">
-                    <h4 class="group inner list-group-item-heading">
-                        Standard Rooms</h4>
-                    <p class="group inner list-group-item-text">
-                        Product description... Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-                        sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-                    <div class="row">
-                        <div class="col-xs-12 col-md-6">
-                            <p class="lead">
-                              <a class="btn btn-success" href="http://www.jquery2dotnet.com">Detail</a>
-                        </div>
-                        
-                    </div>
-                </div>
-        </div>
-    </div>
-    <div class="col">
-      <div>
-            <div class="thumbnail">
-                <img class="group list-group-image" src="images/room image/image2.jpg" alt="" />
-                <div class="caption">
-                    <h4 class="group inner list-group-item-heading">
-                        Luxury Rooms</h4>
-                    <p class="group inner list-group-item-text">
-                        Product description... Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-                        sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-                    <div class="row">
-                        <div class="col-xs-12 col-md-6">
-                            <p class="lead">
-                              <a class="btn btn-success" href="http://www.jquery2dotnet.com">Detail</a>
-                        </div>
-                        
-                    </div>
-                </div>
-        </div>
-        </div>
-    </div>
-  </div>
-  
-  
-  
-  
-  
-  
-  
-  </div>
-    
-    <!-- Room Grid-->
-  </div>
-  <div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-    
-   <!-- suite Grid-->
-    
-    <div class="container">
-  <div class="row">
-    <div class="col">
+    <div class="row">
+      <div class="col-sm-6"> 
             <div class="thumbnail">
                 <img class="group list-group-image" src="http://placehold.it/400x250/000/fff" alt="" />
                 <div class="caption">
@@ -210,51 +147,60 @@
                         sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
                     <div class="row">
                         <div class="col-xs-12 col-md-6">
-                            <p class="lead">
-                                $21.000</p>
-                        </div>
-                        <div class="col-xs-12 col-md-6">
-                            <a class="btn btn-success" href="http://www.jquery2dotnet.com">Add to cart</a>
+                            <a class="btn btn-success" href="booking.php">Book</a>
                         </div>
                     </div>
-                </div>
-        </div>
-    </div>
-    
-    <div class="col">
-      <div>
-            <div class="thumbnail">
-                <img class="group list-group-image" src="http://placehold.it/400x250/000/fff" alt="" />
-                <div class="caption">
-                    <h4 class="group inner list-group-item-heading">
-                        Product title</h4>
-                    <p class="group inner list-group-item-text">
-                        Product description... Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-                        sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-                    <div class="row">
-                        <div class="col-xs-12 col-md-6">
-                            <p class="lead">
-                                $21.000</p>
-                        </div>
-                        <div class="col-xs-12 col-md-6">
-                            <a class="btn btn-success" href="http://www.jquery2dotnet.com">Add to cart</a>
-                        </div>
-                    </div>
-                </div>
+               
             </div>
         </div>
+        </div>
+       <div class="col-sm-6"> 
+            <div class="thumbnail">
+                <img class="group list-group-image" src="http://placehold.it/400x250/000/fff" alt="" />
+                <div class="caption">
+                    <h4 class="group inner list-group-item-heading">
+                        Product title</h4>
+                    <p class="group inner list-group-item-text">
+                        Product description... Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                        sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6">
+                            <a class="btn btn-success" href="booking.php">Book</a>
+                        </div>
+                    </div>
+               
+            </div>
+        </div>
+        </div>
     </div>
-  </div>
-  </div>
     
-    <!-- Suite Grid-->  
-    
-    
-    
-    
+     <div class="row">
+ <div class="col-sm-6"> 
+            <div class="thumbnail">
+                <img class="group list-group-image" src="http://placehold.it/400x250/000/fff" alt="" />
+                <div class="caption">
+                    <h4 class="group inner list-group-item-heading">
+                        Product title</h4>
+                    <p class="group inner list-group-item-text">
+                        Product description... Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                        sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6">
+                            <a class="btn btn-success" href="booking.php">Book</a>
+                        </div>
+                    </div>
+               
+            </div>
+        </div>
+        </div>
+    </div>
+     <!-- condo-->
     
   </div>
   
+  
+  
+  <div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">..gtgg.</div>
 </div>
 
 <script>
@@ -271,9 +217,6 @@
   
   
     
-  
-
- <!--Footer here -->
  <?php include ('includes/foot.php'); ?>
   </body>  
 
