@@ -1,6 +1,6 @@
 <?php 
 include('includes/autoloader.php');
-include ('includes/header.php'); 
+include ('includes/bookingheader.php'); 
 ?>
 
 <div class="featureImage">
@@ -62,7 +62,7 @@ include ('includes/header.php');
             </select>
             </div>
             <div class="col-md-2">
-                <button class="btn btn-default">Book</button>
+                <button class="btn btn-default btnBook">Book</button>
             </div>
         </div>
     </form>

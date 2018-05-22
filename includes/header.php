@@ -8,7 +8,7 @@
       <ul class="topHeaderList">
         <li><a href="#">Degree</a></li>
         <li><a>|</a></li>
-        <li><a href="#">Find Hotel</a></li>
+        <li><a href="booking.php">Find Hotel</a></li>
       </ul>
     </div>
         
