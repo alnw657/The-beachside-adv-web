@@ -81,16 +81,20 @@
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="" alt="First slide">
+      <img class="d-block w-100 h-50" src="images/carousel/accommodation1.jpg" alt="First slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src=".../800x400?auto=yes&bg=666&fg=444&text=Second slide" alt="Second slide">
+      <img class="d-block w-100 h-50" src="images/carousel/accommodation2.jpg" alt="Second slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src=".../800x400?auto=yes&bg=555&fg=333&text=Third slide" alt="Third slide">
+      <img class="d-block w-100 h-75" src="images/carousel/accommodation3.jpg" alt="Third slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100 h-75" src="images/carousel/accommodation4.jpg" alt="Fourth slide">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -138,16 +142,16 @@
     <div class="row">
       <div class="col-sm-6"> 
             <div class="thumbnail">
-                <img class="group list-group-image" src="http://placehold.it/400x250/000/fff" alt="" />
+                <img class="group list-group-image" src="images/room images/oceanview-condo.jpg" alt="" />
                 <div class="caption">
                     <h4 class="group inner list-group-item-heading">
-                        Product title</h4>
+                        Ocean View</h4>
                     <p class="group inner list-group-item-text">
                         Product description... Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
                         sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
                     <div class="row">
                         <div class="col-xs-12 col-md-6">
-                            <a class="btn btn-success" href="booking.php">Book</a>
+                            <a class="btn btn-success" href="booking.php">Detail</a>
                         </div>
                     </div>
                
@@ -156,16 +160,16 @@
         </div>
        <div class="col-sm-6"> 
             <div class="thumbnail">
-                <img class="group list-group-image" src="http://placehold.it/400x250/000/fff" alt="" />
+                <img class="group list-group-image" src="images/room images/gardenview-condo.jpg" alt="" />
                 <div class="caption">
                     <h4 class="group inner list-group-item-heading">
-                        Product title</h4>
+                        Garden View</h4>
                     <p class="group inner list-group-item-text">
                         Product description... Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
                         sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
                     <div class="row">
                         <div class="col-xs-12 col-md-6">
-                            <a class="btn btn-success" href="booking.php">Book</a>
+                            <a class="btn btn-success" href="booking.php">Detail</a>
                         </div>
                     </div>
                
@@ -177,16 +181,16 @@
      <div class="row">
  <div class="col-sm-6"> 
             <div class="thumbnail">
-                <img class="group list-group-image" src="http://placehold.it/400x250/000/fff" alt="" />
+                <img class="group list-group-image" src="images/room images/family-condo.jpg" alt="" />
                 <div class="caption">
                     <h4 class="group inner list-group-item-heading">
-                        Product title</h4>
+                        Family</h4>
                     <p class="group inner list-group-item-text">
                         Product description... Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
                         sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
                     <div class="row">
                         <div class="col-xs-12 col-md-6">
-                            <a class="btn btn-success" href="booking.php">Book</a>
+                            <a class="btn btn-success" href="booking.php">Detail</a>
                         </div>
                     </div>
                
