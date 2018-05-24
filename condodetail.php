@@ -1,11 +1,12 @@
 <?php include ('includes/header.php'); ?>
 
+
 <?php
             $host = "127.0.0.1";
-            $user = "alnw657";                     //Your Cloud 9 username
-            $pass = "";                                  //Remember, there is NO password by default!
-            $db = "db";                                  //Your database name you want to connect to
-            $port = 3306;                                //The port #. It is always 3306
+            $user = "alnw657";                     
+            $pass = "";                                  
+            $db = "db";                                  
+            $port = 3306;                            
             
             $connection = mysqli_connect($host, $user, $pass, $db, $port)or die(mysql_error());
         
@@ -51,7 +52,7 @@
             $features3id[$x] = $row['features_id'];
         }
             
-        if( isset($_GET["room_id"]) ){
+        if( isset($_GET["Rooms"]) ){
   
             $room_id = $_GET['room_id'];
         }
@@ -82,7 +83,7 @@
 <div class="more-info">
     
     <div class="buttonHolder">
-        <button class="btn"><a href="booking.php <?php   $room_id = "10" ?> ">BOOK NOW</a></button>
+        <button class="btn"><a href="booking.php <?php  '$room_id = 10' ?> ">BOOK NOW</a></button>
     </div>
     <h6 class="text-uppercase roomTitle"> <?php echo $header; ?></h6>
    

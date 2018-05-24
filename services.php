@@ -4,11 +4,11 @@
 <?php include ('includes/header.php'); ?>
   <!-- our main section here -->
   
-<div class="mainsection">
+  <div class="mainsection">
   <div class="row">
       <section class="col text-center">
     
-      <img class="d-block w-100" src="images/spa1.jpg">
+      <img class="d-block w-100" src="images/services.jpg">
     
    
 
@@ -19,6 +19,7 @@
       
       
     </div>
+  
   <div class ="container">
   
   <?php
@@ -34,13 +35,19 @@
       </section>
     </div>
   <!-- mainsection container-->
-  s
+  
   
   <div >
     <div class="row">
-        <section class="col-lg-4 col-md-4 col-sm-4 col-xs-12-6">
-          <img src="images/beach.jpg" class="img-fluid" style="max-width">
-        </section>
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12-6">
+          <div class ="hovereffect">
+          <img src="images/spa.jpg" class=" img-fluid">
+          <div class="overlay">
+          <h1>SPA</h1>
+				  <button class="btn"><a href="spa.php">Detail</a></button>
+        </div>
+        </div>
+        </div> 
         
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12-6"> 
           <img src="images/beach.jpg" class=" img-fluid">

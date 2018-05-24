@@ -65,15 +65,15 @@
 <div class="container">
  <ul class="nav nav-tabs" id="myTab" role="tablist">
   <li class="nav-item">
-    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Condo</a>
+    <a class="nav-link active" id="condo-tab" data-toggle="tab" href="#condo" role="tab" aria-controls="condo" aria-selected="true">Condo</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Suites</a>
+    <a class="nav-link" id="suites-tab" data-toggle="tab" href="#suites" role="tab" aria-controls="suites" aria-selected="false">Suites</a>
   </li>
 </ul>
 
 <div class="tab-content">
-  <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab">
+  <div class="tab-pane active" id="condo" role="tabpanel" aria-labelledby="condo-tab">
     <!-- condo-->
     
     <div class="row">
@@ -142,7 +142,7 @@
   
   
   
-  <div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+  <div class="tab-pane" id="suites" role="tabpanel" aria-labelledby="suites-tab">
     
      <div class="col-sm-6"> 
             <div class="thumbnail">
@@ -168,9 +168,12 @@
 </div>
 
 <script>
-  $(function () {
-    $('#myTab li:last-child a').tab('show')
-  })
+  $(document).ready(function (){
+    if($("#condo-tab"){
+        alert("dsdtd");
+       
+    }
+  });
 </script>
   
   

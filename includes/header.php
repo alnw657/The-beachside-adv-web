@@ -30,7 +30,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="accommodation.php" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <a class="nav-link dropdown-toggle" href="accommodation.php" id="navbarDropdown" role="button"  aria-haspopup="true" aria-expanded="false">
             ACCOMMODATION
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -40,7 +40,7 @@
         </li>
         
          <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <a class="nav-link dropdown-toggle" href="services.php" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
             SERVICES
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">

@@ -12,8 +12,7 @@
             // Escape user inputs for security
             $date_in = mysqli_real_escape_string($connection, $_REQUEST['date_in']);
             $date_out = mysqli_real_escape_string($connection, $_REQUEST['date_out']);
-            $status = mysqli_real_escape_string($connection, $_REQUEST['status']);
-         
+            $room_id = mysqli_real_escape_string($connection, $_REQUEST['room_id']);
             $adutls = mysqli_real_escape_string($connection, $_REQUEST['adutls']);
             $infants = mysqli_real_escape_string($connection, $_REQUEST['infants']);
             $children = mysqli_real_escape_string($connection, $_REQUEST['children']);
@@ -21,8 +20,8 @@
             
         
 
-            $insertSql = "INSERT INTO Reservations (date_in, date_out, status, adutls, infants, children)
-            VALUES ('$date_in', '$date_out', '$status', '$adutls', '$infants', '$children')";
+            $insertSql = "INSERT INTO Reservations (date_in, date_out, adults, children , infants)
+            VALUES ('$date_in', '$date_out', '$adutls' , '$children', '$infants' )";
 
             if (mysqli_query($connection, $insertSql)) {
                 echo "New record created successfully";

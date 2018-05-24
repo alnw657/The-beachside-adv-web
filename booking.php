@@ -1,15 +1,39 @@
 <?php 
 include('includes/autoloader.php');
 include ('includes/bookingheader.php'); 
+
 ?>
+
+
+
+
+
+
+
+
 
 <div class="featureImage">
     <h1>Heading!!</h1>
 </div>
 <div class="container">
     <?php include ('includes/breadcrumbs.php'); ?>
-    <form class="bookingForm">
+    
+    
+   
+    <form class="bookingForm" action="includes/insert.php" method="post">
+         <?php include ('includes/insert.php'); ?>
         <div class="row bookingFormRow">
+            
+           <!-- <div class="col-md-2">
+                <label for="firstName">First name</label>
+                <input type="text" name="firstName"/>
+            </div>
+            
+            <div class="col-md-2">
+                <label for="LastName">Last name</label>
+                <input type="text" name="LastName"/>
+            </div> -->
+            
             <div class="col-md-2">
                 <label for="checkIn">Check in</label>
                 <input type="date" name="checkIn"/>
@@ -35,6 +59,7 @@ include ('includes/bookingheader.php');
             </div>
             <div class="col-md-2"><label for="children">Children</label>
                 <select name="children">
+                <option value="0">0</option>
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
@@ -50,20 +75,17 @@ include ('includes/bookingheader.php');
             <div class="col-md-2">
                 <label for="infants">Infants</label>
                 <select name="infants">
+                <option value="0">0</option>
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
                 <option value="4">4</option>
                 <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-                <option value="8">8</option>
-                <option value="9">9</option>
-                <option value="10">10</option>
+               
             </select>
             </div>
             <div class="col-md-2">
-                <button class="btn btn-default btnBook">Book</button>
+                <input type="submit" value="Book">
             </div>
         </div>
     </form>
