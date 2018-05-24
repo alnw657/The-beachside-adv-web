@@ -2,6 +2,7 @@
     
     
     <body>
+        <?php include ('includes/header.php'); ?>
         <h1>Rooms</h1>
         
 
@@ -22,9 +23,12 @@
         
             while ($row = mysqli_fetch_assoc($result)) { // for some reason is echo twice VERIFY 
                 $roomName = $row['room_name']; 
+                $roomId = $row['room_id'];
                 
                 
-                echo("<div>$roomName</div>");
+                echo("<div>$roomName $roomId</div>");
+               //echo("<div>$roomId</div>");
+                
                 
                // echo "The ID is: " . $row['room_id'] . " and the name is: " . $row['room_name'];
             }

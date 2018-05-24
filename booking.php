@@ -7,6 +7,7 @@ include ('includes/bookingheader.php');
     <h1>Heading!!</h1>
 </div>
 <div class="container">
+    <?php include ('includes/breadcrumbs.php'); ?>
     <form class="bookingForm">
         <div class="row bookingFormRow">
             <div class="col-md-2">

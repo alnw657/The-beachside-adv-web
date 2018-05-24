@@ -51,11 +51,21 @@
             $features3id[$x] = $row['features_id'];
         }
             
+        if( isset($_GET["room_id"]) ){
+  
+            $room_id = $_GET['room_id'];
+        }
+        else{
+            echo "You will be redirected to the home page after 5 seconds";
+            ;
+        }
         
 ?>
         
         
 <div class="container">
+    
+
     <div class="row">
         <div class="col-md-4 col-sm-4 col-xs-12">
             <img src="https://via.placeholder.com/300x300">
@@ -72,7 +82,7 @@
 <div class="more-info">
     
     <div class="buttonHolder">
-        <button class="btn"><a href="booking.php">BOOK NOW</a></button>
+        <button class="btn"><a href="booking.php <?php   $room_id = "10" ?> ">BOOK NOW</a></button>
     </div>
     <h6 class="text-uppercase roomTitle"> <?php echo $header; ?></h6>
    

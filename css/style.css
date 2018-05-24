@@ -126,3 +126,50 @@ BOOKING PAGE
 .btnBook {
     margin: 7px 0;
 }
+
+/*-------------------
+DETAIL PAGE
+-------------------*/
+
+.more-info{
+    margin: 65px auto 20px auto;
+    line-height: 1.75em;
+    max-width: 80%;
+    list-style: initial;
+    
+}
+.roomTitle{
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 15px;
+    
+}
+
+.roomDescription{
+    max-width: 55%;
+    margin: 65px auto 20px auto;
+    color: #616161;
+    font-family: "altis";
+    text-align: left;
+    line-height: 1.75em;
+    
+}
+
+.condoFeatures{
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+.condoFeatures ul{
+    float: left;
+}
+
+.condoFeatures ul il{
+    list-style: initial;
+}
+
+.buttonHolder {
+    position: relative;
+    text-align: right;
+    margin: 0 auto;
+}

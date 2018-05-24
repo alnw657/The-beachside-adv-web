@@ -40,51 +40,31 @@
       </section>
     
       
-      </div> <!-- mainsection container-->
+      
       
     </div>
-     
     
-    <div class="container">
-   
-   <?php include ('includes/breadcrumbs.php'); ?>
+      
+      
+      
+    </div>
+  
+  <div class ="container">
+  
+  <?php
+      include('includes/breadcrumbs.php');
+      ?>
+    
     <div class="row">
+      
       <section class="col"> 
-        <h1>The Beachside</h1>
+        <h1>Events</h1>
         <p>A web-based platform is required for this project, windows, mac and linux user will have access to the platform, being a responsive website will expand to mobile and tablets. Following design principles, such as relevancy, content, menu, Branding, design and other principles are very important to establish a solid connection with users and relying on a friendly user experience that can accommodate the information travellers are looking for.
         </p>
       </section>
     </div>
-  
-  
-  <div class="testimonialsection">
-    <div class="row">
-      <section class="col-lg-4 col-md-4 col-sm-4 col-xs-12-6">
-        <img src="images/beach.jpg" class="smimg img-fluid">
-        <h4>Grooming</h4>
-        <p>Our therapeutic <span class="font-weight-bold">grooming</span> treatments help battle fleas,
-        allergic dermatitis, and other challenging skin conditions.</p>
-        
-      </section>
-      
-      <section class="col-lg-4 col-md-4 col-sm-4 col-xs-12-6"> 
-        <img src="images/beach.jpg" class="smimg img-fluid">
-        <h4>Grooming</h4>
-        <p>Our therapeutic <span class="font-weight-bold">grooming</span> treatments help battle fleas,
-        allergic dermatitis, and other challenging skin conditions.</p>
-        
-      </section>
-      
-      <section class="col-lg-4 col-md-4 col-sm-4 col-xs-12-6"> 
-        <img src="images/beach.jpg" class="smimg img-fluid">
-        <h4>Grooming</h4>
-        <p>Our therapeutic <span class="font-weight-bold">grooming</span> treatments help battle fleas,
-        allergic dermatitis, and other challenging skin conditions.</p>
-        
-      </section>
-    </div>  <!-- row container -->
-    
-  </div><!-- testimonialsection container --> 
+  <!-- mainsection container-->
+  s
   
   <div >
     <div class="row">
@@ -101,9 +81,9 @@
         </div>
     </div>  <!-- row container -->
   </div> <!--anotherimg-->
-  </div>
   
-
+  </div>
+   </div>
   <!--Footer here -->
  <?php include ('includes/foot.php'); ?>
  

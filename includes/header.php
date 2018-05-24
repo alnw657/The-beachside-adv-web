@@ -44,9 +44,9 @@
             SERVICES
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Spa</a>
-            <a class="dropdown-item" href="#">Events</a>
-            <a class="dropdown-item" href="#">Transfer</a>
+            <a class="dropdown-item" href="spa.php">Spa</a>
+            <a class="dropdown-item" href="events.php">Events</a>
+            <a class="dropdown-item" href="transfer.php">Transfer</a>
           </div>
         </li>
         
