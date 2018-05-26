@@ -21,7 +21,7 @@ include ('includes/bookingheader.php');
     
    
     <form class="bookingForm" action="includes/insert.php" method="post">
-         <?php include ('includes/insert.php'); ?>
+       
         <div class="row bookingFormRow">
             
            <!-- <div class="col-md-2">
@@ -35,15 +35,14 @@ include ('includes/bookingheader.php');
             </div> -->
             
             <div class="col-md-2">
-                <label for="checkIn">Check in</label>
-                <input type="date" name="checkIn"/>
+                <label for="date_in">Check in</label>
+                <input type="date" name="date_in" id="date_in"/>
             </div>
             <div class="col-md-2">
-                <label for="checkOut">Check out</label>
-                <input type="date" name="checkOut"/>
+                <label for="date_out">Check out</label>
+                <input type="date" name="date_out" id="date_out"/>
             </div>
-            <div class="col-md-2">
-                <label for"adults">Adults</label>
+            <div class="col-md-2"><label for"adults">Adults</label>
                 <select name="adults">
                 <option value="1">1</option>
                 <option value="2">2</option>
@@ -72,8 +71,7 @@ include ('includes/bookingheader.php');
                 <option value="10">10</option>
             </select>
             </div>
-            <div class="col-md-2">
-                <label for="infants">Infants</label>
+            <div class="col-md-2"><label for="infants">Infants</label>
                 <select name="infants">
                 <option value="0">0</option>
                 <option value="1">1</option>

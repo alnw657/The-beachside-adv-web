@@ -3,6 +3,10 @@
    <?php include('includes/autoloader.php');?>
    <?php include ('includes/head.php'); ?>
    <?php include ('includes/header.php'); ?>
+   
+  
+   
+   
 <body>
  
 
@@ -77,6 +81,7 @@
     <!-- condo-->
     
     <div class="row">
+        <?php include ('includes/get.php');?>
       <div class="col-sm-6"> 
             <div class="thumbnail">
                 <img class="group list-group-image" src="images/room images/oceanview-condo.jpg" alt="" />
@@ -88,7 +93,8 @@
                         sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
                     <div class="row">
                         <div class="col-xs-12 col-md-6">
-                            <a class="btn btn-success" href="condodetail.php">Detail</a>
+                            
+                            <a class="btn btn-success" href="detail.php?room_id=20">Detail</a>
                         </div>
                     </div>
                
@@ -106,7 +112,7 @@
                         sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
                     <div class="row">
                         <div class="col-xs-12 col-md-6">
-                            <a class="btn btn-success" href="condodetail.php">Detail</a>
+                            <a class="btn btn-success" href="detail.php?room_id=10">Detail</a>
                         </div>
                     </div>
                
@@ -127,7 +133,7 @@
                         sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
                     <div class="row">
                         <div class="col-xs-12 col-md-6">
-                            <a class="btn btn-success" href="condodetail.php">Detail</a>
+                            <a class="btn btn-success" href="detail.php?room_id=30">Detail</a>
                         </div>
                     </div>
                
