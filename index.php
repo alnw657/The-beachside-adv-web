@@ -1,7 +1,8 @@
-<?php include('includes/autoloader.php');?>
+<?php  include('autoloader.php');
 
+$db = new Database();
+include ('includes/header.php'); ?>
 
-<?php include ('includes/header.php'); ?>
   <!-- our main section here -->
   
   <div class="mainsection">

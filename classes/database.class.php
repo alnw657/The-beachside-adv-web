@@ -6,10 +6,10 @@ class Database{
     private $db;
     public $connection;
     public function __construct(){
-        $this -> username = getenv('dbusername');
+        $this -> username = getenv('dbuser');
         $this -> password = getenv('dbpassword');
         $this -> host = getenv('dbhost');
-        $this -> db = getenv('db');
+        $this -> db = getenv('dbname');
         $this -> connect();
     }
     private function connect(){

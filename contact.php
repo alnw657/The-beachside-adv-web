@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-    <?php include('includes/autoloader.php');?>
-   <?php include ('includes/head.php'); ?>
+    <?php include('autoloader.php');?>
+  
    <?php include ('includes/header.php'); ?>
 <body>
 

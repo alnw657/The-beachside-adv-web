@@ -1,4 +1,4 @@
-<?php include('includes/autoloader.php');?>
+<?php include('autoloader.php');?>
 
 
 <?php include ('includes/header.php'); ?>

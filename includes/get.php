@@ -13,12 +13,12 @@
         $roomQuery = "SELECT room_id FROM 'Rooms'";
         
         
-        if(isset($_GET['room_id'])){
-            echo $room_id;
-        }
-        else{
-            echo "Error";
-        }
+        // if(isset($_GET['room_id'])){
+        //     echo $room_id;
+        // }
+        // else{
+        //     echo "Error";
+        // }
      
    
    ?>

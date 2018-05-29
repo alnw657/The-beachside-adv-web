@@ -1,28 +1,37 @@
-<?php include ('includes/header.php'); ?>
-<?php include('includes/autoloader.php');?>
-
- 
-
 <?php
-           /* $host = "127.0.0.1";
-            $user = "alnw657";                     
-            $pass = "";                                  
-            $db = "db";                                  
-            $port = 3306;                            
-            
-            $connection = mysqli_connect($host, $user, $pass, $db, $port)or die(mysql_error());*/
-        
-            
-            $db = new Database();
-            
-        
-            //features query
-            $query = "SELECT * FROM `features`";
-            $result = mysqli_query($connection, $query);
+include('autoloader.php');
+include ('includes/header.php');
+
+$db = new Database();
+
+$id = $_GET["room_id"];
+//get the room with this id from database
+
+$query = 'SELECT * from Rooms WHERE room_id = ?';
+
+$statement = $db -> connection -> prepare( $query);//prevent from breasking the app
+$statement -> bind_param('i', $id);
+$statement -> execute();
+
+$result = $statement -> get_result();
+
+if( $result -> num_rows ){
+    $room = $result -> fetch_assoc();
+    
+    $name = $room["room_name"];
+    $max_adults = $room["max_adults"];
+    
+    echo $name . "sleeps" . $max_adults;
+}
+
+
+
+ $query = "SELECT * FROM `features`";
+            $result = mysqli_query($db -> connection, $query);
             
            //description query
             $descriptionQuery = "SELECT * FROM `description`";
-            $descriptionResult = mysqli_query($connection, $descriptionQuery);
+            $descriptionResult = mysqli_query($db -> connection, $descriptionQuery);
             $row = mysqli_fetch_assoc($descriptionResult);
             $description = $row['desc'];
             $header = $row['header'];
@@ -41,7 +50,7 @@
         
         
         $feat2query = "SELECT * FROM `features2`";
-        $feat2result = mysqli_query($connection, $feat2query);
+        $feat2result = mysqli_query($db -> connection, $feat2query);
             
         for($x = 0; $row = mysqli_fetch_assoc($feat2result); $x++ ){
             $features2name[$x]  = $row['features_name'];
@@ -49,32 +58,25 @@
         }
         
          $feat3query = "SELECT * FROM `features3`";
-        $feat3result = mysqli_query($connection, $feat3query);
+        $feat3result = mysqli_query($db -> connection, $feat3query);
             
         for($x = 0; $row = mysqli_fetch_assoc($feat3result); $x++ ){
             $features3name[$x]  = $row['features_name'];
             $features3id[$x] = $row['features_id'];
         }
         
-       
-        $room_id = $_GET['room_id'];
-        $roomQuery = "SELECT room_id FROM 'Rooms'";
-        
-        
-        if(isset($_GET['room_id'])){
-            echo $room_id;
-        }
-        else{
-            echo "Error";
-        }
-        
-        
+          $room_id = $_GET['room_id'];
+
+
+
 ?>
-        
-        
+
+
+
+
 <div class="container">
-    <?php
-      include('includes/breadcrumbs.php');
+     <?php include('includes/breadcrumbs.php');
+     
       ?>
 
     <div class="row">
@@ -91,9 +93,8 @@
 </div> <!-- container images -->
 
 <div class="more-info">
-    
     <div class="buttonHolder">
-        <button class="btn"><a href="booking.php?room_id=<?php $room_id ?>" >BOOK NOW</a></button>
+        <button class="btn"><a href="booking.php?room_id=<?php echo $room_id; ?>" >BOOK NOW</a></button>
     </div>
     <h6 class="text-uppercase roomTitle"> <?php echo $header; ?></h6>
    
