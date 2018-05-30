@@ -253,3 +253,34 @@ SERVICES PAGE
   -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
 }
+
+/*-------------------
+REGISTER PAGE
+-------------------*/
+
+.form-group {
+    width: 500px;
+    margin: 150px auto 150px auto; 
+    border-radius: 5px;
+    background-color: #f3f3f3; 
+    padding: 50px;
+    text-align: center;
+}
+.inputRegister {
+    margin: 10px 0;
+}
+.inputRegister:focus {
+    border: 2px solid #4CAF50;
+}
+.registerBtn {
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 6px;
+    margin: 10px 0 30px 0;
+}
+.registerForm {
+    margin: 30px 0;
+}
